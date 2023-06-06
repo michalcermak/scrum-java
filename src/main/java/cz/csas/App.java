@@ -1,11 +1,13 @@
 package cz.csas;
 
 /**
- * Hello world!
+ * Hell or world!
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println(getHelloMessage());
+        Game game = new Game();
+        game.setup();
+        game.play();
     }
 
     public static String getHelloMessage() {
